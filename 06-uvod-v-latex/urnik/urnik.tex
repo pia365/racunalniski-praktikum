@@ -80,39 +80,31 @@ matematika.
 Hierarhija značk omogoča enostavno vnašanje podatkov, hkrati pa poskrbi za preglednost.
 Še enostavnejše je dostopanje do posameznih podatkov, saj večina programskih jezikov že
 vsebuje metode za delo z XML datotekami.
-
 Pri objektno orientiranih programskih jezikih (Delphi, C++, Java) vse vhodne podatke
 opišemo s posameznimi razredi. Poglejmo, katere razrede je smiselno implementirati ter
 katere podatke naj vsebujejo.
 
-% Spodnji zamaknjeni odstavki so elementi neoštevilčenega seznama.
-% S pomočjo palete ukazov naredite ustrezno okolje. 
-% Z večimi kurzorji hkrati napišite še ukaze `\item`, kjer jih potrebujete.
-% Pri prvem seznamu se vsi elementi začnejo z besedo `Razred`, zato lahko več 
-% kurzorjev na pravih mestih dobite enostavno s pomočjo iskanja.
 
-% V besedilu je definiranih nekaj novih pojmov--zapisani so med poševnici. 
-% Da bodo prikazani ležeče, uporabite ukaz `\emph`. 
-% Kot pri razdelkih si pomagajte z orodjem _Replace_ in regularnimi izrazi--
-% prav vam bo prišel isti vzorec za poljuben niz znakov, le da bo zdaj obdan z dvema poševnicama.
-
-   Razred \emph{Profesor/ vsebuje osebne podatke profesorja (ime in priimek) ter}
-   podatke o predmetih, ki jih predava. Hkrati moramo za vsako uro v tednu vedeti, če
-   je profesor takrat že zaseden, da mu slučajno ne bi dodelili dveh predavanj v istem
-   časovnem terminu. To je najlažje preverjati s pomočjo tabele zasedenosti, ki je
-   podrobneje opisana na koncu poglavja.
-
-   Razred \emph{Skupina/ predstavlja skupino študentov. Kot podatke torej potrebujemo}
-   smer skupine (npr.~pedagoška matematika) ter število študentov v njej. Podobno kot pri
-   profesorjih, tudi tukaj potrebujemo tabelo zasedenosti.
-
-   Razred \emph{Predavalnica/ nosi podatke o kapaciteti predavalnice, njeno oznako}
-   ter podatke o zasedenosti, ki so predstavljeni s tabelo.
-
-   Razred \emph{Predmet/ vsebuje podatke o posameznih predmetih. Kot podatke tega}
-   objekta je smiselno navesti ime predmeta ter tedensko število ur njegove izvedbe.
-   Zanima nas tudi, katerim skupinam je predmet namenjen, ter v katerem semestru se bo
-   predaval.
+   
+   \begin{itemize}
+      \item Razred \emph{Profesor/ vsebuje osebne podatke profesorja (ime in priimek) ter}
+      podatke o predmetih, ki jih predava. Hkrati moramo za vsako uro v tednu vedeti, če
+      je profesor takrat že zaseden, da mu slučajno ne bi dodelili dveh predavanj v istem
+      časovnem terminu. To je najlažje preverjati s pomočjo tabele zasedenosti, ki je
+      podrobneje opisana na koncu poglavja.
+   
+      \item Razred \emph{Skupina/ predstavlja skupino študentov. Kot podatke torej potrebujemo}
+      smer skupine (npr.~pedagoška matematika) ter število študentov v njej. Podobno kot pri
+      profesorjih, tudi tukaj potrebujemo tabelo zasedenosti.
+   
+      \item Razred \emph{Predavalnica/ nosi podatke o kapaciteti predavalnice, njeno oznako}
+      ter podatke o zasedenosti, ki so predstavljeni s tabelo.
+   
+      \item Razred \emph{Predmet/ vsebuje podatke o posameznih predmetih. Kot podatke tega}
+      objekta je smiselno navesti ime predmeta ter tedensko število ur njegove izvedbe.
+      Zanima nas tudi, katerim skupinam je predmet namenjen, ter v katerem semestru se bo
+      predaval.
+   \end{itemize}
 
 % Spodnja vrstica ne začne novega odstavka, zato ne bi smela biti zamaknjena.
 % To popravite z ukazom `\noindent` ali pa tako, da odstranite prazno vrstico.
